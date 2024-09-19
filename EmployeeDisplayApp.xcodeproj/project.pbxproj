@@ -13,6 +13,17 @@
 		C9AC152F2C9B18B3008EA485 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = C9AC152E2C9B18B3008EA485 /* Base */; };
 		C9AC15312C9B18B5008EA485 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9AC15302C9B18B5008EA485 /* Assets.xcassets */; };
 		C9AC15342C9B18B5008EA485 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = C9AC15332C9B18B5008EA485 /* Base */; };
+		C9AC153C2C9B192E008EA485 /* Employee.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9AC153B2C9B192E008EA485 /* Employee.swift */; };
+		C9AC153E2C9B1B37008EA485 /* ApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9AC153D2C9B1B37008EA485 /* ApiManager.swift */; };
+		C9AC15402C9B1FC1008EA485 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9AC153F2C9B1FC1008EA485 /* Constants.swift */; };
+		C9AC15422C9B2022008EA485 /* EmployeeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9AC15412C9B2022008EA485 /* EmployeeViewModel.swift */; };
+		C9AC15452C9B2305008EA485 /* EmployeeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9AC15432C9B2305008EA485 /* EmployeeCell.swift */; };
+		C9AC15462C9B2305008EA485 /* EmployeeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C9AC15442C9B2305008EA485 /* EmployeeCell.xib */; };
+		C9AC15482C9B2A49008EA485 /* DetailScreenVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9AC15472C9B2A49008EA485 /* DetailScreenVC.swift */; };
+		C9AC154B2C9B2B51008EA485 /* EmployeeDetailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9AC15492C9B2B51008EA485 /* EmployeeDetailCell.swift */; };
+		C9AC154C2C9B2B51008EA485 /* EmployeeDetailCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C9AC154A2C9B2B51008EA485 /* EmployeeDetailCell.xib */; };
+		C9AC154E2C9B2D2C008EA485 /* EmployeeDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9AC154D2C9B2D2C008EA485 /* EmployeeDetailViewModel.swift */; };
+		C9AC15502C9B427B008EA485 /* ProgrammaticDetailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9AC154F2C9B427B008EA485 /* ProgrammaticDetailCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +35,17 @@
 		C9AC15302C9B18B5008EA485 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C9AC15332C9B18B5008EA485 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C9AC15352C9B18B5008EA485 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C9AC153B2C9B192E008EA485 /* Employee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Employee.swift; sourceTree = "<group>"; };
+		C9AC153D2C9B1B37008EA485 /* ApiManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiManager.swift; sourceTree = "<group>"; };
+		C9AC153F2C9B1FC1008EA485 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		C9AC15412C9B2022008EA485 /* EmployeeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeViewModel.swift; sourceTree = "<group>"; };
+		C9AC15432C9B2305008EA485 /* EmployeeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeCell.swift; sourceTree = "<group>"; };
+		C9AC15442C9B2305008EA485 /* EmployeeCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EmployeeCell.xib; sourceTree = "<group>"; };
+		C9AC15472C9B2A49008EA485 /* DetailScreenVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailScreenVC.swift; sourceTree = "<group>"; };
+		C9AC15492C9B2B51008EA485 /* EmployeeDetailCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeDetailCell.swift; sourceTree = "<group>"; };
+		C9AC154A2C9B2B51008EA485 /* EmployeeDetailCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EmployeeDetailCell.xib; sourceTree = "<group>"; };
+		C9AC154D2C9B2D2C008EA485 /* EmployeeDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeDetailViewModel.swift; sourceTree = "<group>"; };
+		C9AC154F2C9B427B008EA485 /* ProgrammaticDetailCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgrammaticDetailCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +59,53 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C9105F902C9BFA41007777D5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C9AC153B2C9B192E008EA485 /* Employee.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		C9105F912C9BFA6E007777D5 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				C9AC15412C9B2022008EA485 /* EmployeeViewModel.swift */,
+				C9AC154D2C9B2D2C008EA485 /* EmployeeDetailViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		C9105F932C9BFAA0007777D5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C9AC15492C9B2B51008EA485 /* EmployeeDetailCell.swift */,
+				C9AC154F2C9B427B008EA485 /* ProgrammaticDetailCell.swift */,
+				C9AC15442C9B2305008EA485 /* EmployeeCell.xib */,
+				C9AC152D2C9B18B3008EA485 /* Main.storyboard */,
+				C9AC15432C9B2305008EA485 /* EmployeeCell.swift */,
+				C9AC154A2C9B2B51008EA485 /* EmployeeDetailCell.xib */,
+				C9AC152B2C9B18B3008EA485 /* ViewController.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C9105F942C9BFACF007777D5 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				C9AC153F2C9B1FC1008EA485 /* Constants.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		C9105F962C9BFAFB007777D5 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				C9AC153D2C9B1B37008EA485 /* ApiManager.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
 		C9AC151B2C9B18B3008EA485 = {
 			isa = PBXGroup;
 			children = (
@@ -57,9 +126,13 @@
 			isa = PBXGroup;
 			children = (
 				C9AC15272C9B18B3008EA485 /* AppDelegate.swift */,
+				C9AC15472C9B2A49008EA485 /* DetailScreenVC.swift */,
 				C9AC15292C9B18B3008EA485 /* SceneDelegate.swift */,
-				C9AC152B2C9B18B3008EA485 /* ViewController.swift */,
-				C9AC152D2C9B18B3008EA485 /* Main.storyboard */,
+				C9105F932C9BFAA0007777D5 /* Views */,
+				C9105F912C9BFA6E007777D5 /* ViewModels */,
+				C9105F902C9BFA41007777D5 /* Models */,
+				C9105F962C9BFAFB007777D5 /* Services */,
+				C9105F942C9BFACF007777D5 /* Constants */,
 				C9AC15302C9B18B5008EA485 /* Assets.xcassets */,
 				C9AC15322C9B18B5008EA485 /* LaunchScreen.storyboard */,
 				C9AC15352C9B18B5008EA485 /* Info.plist */,
@@ -125,7 +198,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9AC154C2C9B2B51008EA485 /* EmployeeDetailCell.xib in Resources */,
 				C9AC15312C9B18B5008EA485 /* Assets.xcassets in Resources */,
+				C9AC15462C9B2305008EA485 /* EmployeeCell.xib in Resources */,
 				C9AC15342C9B18B5008EA485 /* Base in Resources */,
 				C9AC152F2C9B18B3008EA485 /* Base in Resources */,
 			);
@@ -138,9 +213,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9AC15502C9B427B008EA485 /* ProgrammaticDetailCell.swift in Sources */,
 				C9AC152C2C9B18B3008EA485 /* ViewController.swift in Sources */,
+				C9AC153C2C9B192E008EA485 /* Employee.swift in Sources */,
+				C9AC15482C9B2A49008EA485 /* DetailScreenVC.swift in Sources */,
+				C9AC15422C9B2022008EA485 /* EmployeeViewModel.swift in Sources */,
+				C9AC154B2C9B2B51008EA485 /* EmployeeDetailCell.swift in Sources */,
+				C9AC153E2C9B1B37008EA485 /* ApiManager.swift in Sources */,
+				C9AC154E2C9B2D2C008EA485 /* EmployeeDetailViewModel.swift in Sources */,
 				C9AC15282C9B18B3008EA485 /* AppDelegate.swift in Sources */,
+				C9AC15452C9B2305008EA485 /* EmployeeCell.swift in Sources */,
 				C9AC152A2C9B18B3008EA485 /* SceneDelegate.swift in Sources */,
+				C9AC15402C9B1FC1008EA485 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,6 +384,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -328,6 +413,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
